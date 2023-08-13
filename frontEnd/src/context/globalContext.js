@@ -50,7 +50,7 @@ export const GlobalProvider = ({ children }) => {
     return totalIncome;
   };
 
-  //calculate incomes
+  //calculate expenses
   const addExpense = async (expense) => {
     const response = await axios
       .post(`${BASE_URL}add-expense`, expense)

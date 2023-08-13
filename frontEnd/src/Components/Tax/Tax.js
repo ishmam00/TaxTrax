@@ -25,26 +25,26 @@ function Tax() {
         <h1>Taxes</h1>
         <h2 className="total-tax">
           {' '}
-          Total Tax: <span>${totalTaxes()}</span>
+          Total Tax: <span>৳‎{totalTaxes()}</span>
         </h2>
         <h2 className="total-tax">
           Salary Tax:{' '}
           <span>
-            {categoryTaxes('salary')}% , $
+            {categoryTaxes('salary')}% , ৳‎
             {(categoryIncome('salary') * categoryTaxes('salary')) / 100}
           </span>
         </h2>
         <h2 className="total-tax">
           Youtube Tax:{' '}
           <span>
-            {categoryTaxes('youtube')}% , $
+            {categoryTaxes('youtube')}% , ৳‎
             {(categoryIncome('youtube') * categoryTaxes('youtube')) / 100}
           </span>
         </h2>
         <h2 className="total-tax">
           Freelancing Tax:{' '}
           <span>
-            {categoryTaxes('freelancing')}% , $
+            {categoryTaxes('freelancing')}% , ৳‎
             {(categoryIncome('freelancing') * categoryTaxes('freelancing')) /
               100}
           </span>
@@ -52,7 +52,7 @@ function Tax() {
         <h2 className="total-tax">
           Investments Tax:{' '}
           <span>
-            {categoryTaxes('investments')}% , $
+            {categoryTaxes('investments')}% , ৳‎
             {(categoryIncome('investments') * categoryTaxes('investments')) /
               100}
           </span>
@@ -60,7 +60,7 @@ function Tax() {
         <h2 className="total-tax">
           Stocks Tax:{' '}
           <span>
-            {categoryTaxes('stocks')}% , $
+            {categoryTaxes('stocks')}% , ৳‎
             {(categoryIncome('stocks') * categoryTaxes('stocks')) / 100}
           </span>
         </h2>

@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import styled from 'styled-components';
-import bg from './img/bg.png';
+import bg from './img/bg-2.jpg';
 import { MainLayout } from './styles/Layouts';
 import Orb from './Components/Orb/Orb';
 import Navigation from './Components/Navigation/Navigation';
@@ -55,7 +55,7 @@ const AppStyled = styled.div`
   position: relative;
   main {
     flex: 1;
-    background: rgba(252, 246, 249, 0.78);
+    background: rgba(188, 213, 231, 0.78);
     border: 3px solid #ffffff;
     backdrop-filter: blur(4.5px);
     border-radius: 32px;
